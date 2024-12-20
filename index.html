@@ -54,9 +54,12 @@
       style="width: 100%; height: 100%; object-fit: cover; position: absolute"
     ></canvas>
     <div id="startARDiv" class="ctaDiv">
+      <div style="margin: auto" id="topIcon">
+        <img id="topIcon" src="TemplateData/BenLogo.png" />
+      </div>
       <div class="middle">
-        <div style="margin: auto" id="topIcon">
-          <img src="TemplateData/BenLogo.png" />
+        <div id="infoBen">
+          <p>HAPPY BIRTHDAY BEN WILLIAMS-BUTT!</p>
         </div>
         <div id="info">
           <header>
@@ -75,11 +78,7 @@
           <!-- <p id="data-size">Calculating...</p> -->
         </div>
       </div>
-      <div id="splash-footer">
-        <div id="infoBen">
-          <p>HAPPY BIRTHDAY BEN WILLIAMS-BUTT!</p>
-        </div>
-      </div>
+      <div id="splash-footer"></div>
     </div>
     <div id="screenshotDiv" style="display: none" class="ctaDiv">
       <div
@@ -268,7 +267,7 @@
       window.addEventListener("load", displayDownloadInfo);
 
       //Set Facing Mode here ('environment', 'user', '')
-      window.unityFacingMode = "environment";
+		window.unityFacingMode = "environment"
 
       window.WEBCAM_SETTINGS = {
         video: {

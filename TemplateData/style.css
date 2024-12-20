@@ -84,8 +84,8 @@ body {
 }
 
 #topIcon {
-  width: 70px;
-  height: 70px;
+  width: 170px;
+  height: 170px;
 }
 
 #popup-permissions {
@@ -105,7 +105,7 @@ body {
 #startARButton {
   color: white;
   font-size: 16pt;
-  margin-top: 50px;
+  margin-top: 5px;
   font-weight: normal;
   padding: 20px;
   width: 75%;
@@ -158,11 +158,12 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   font-weight: normal;
+  margin-bottom: 50px;
 }
 
 .middle {
   display: flex;
-  justify-content: center; /* Horizontally center */
+  justify-content: space-around;
   align-items: center; /* Vertically center */
   height: 100%; /* Ensure the container has height */
   flex-direction: column;
