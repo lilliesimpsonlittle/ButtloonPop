@@ -31,7 +31,7 @@ body {
 }
 #unity-logo {
   height: 80px;
-  background: url("zubrLogo.png") no-repeat center;
+  background: url("BenLogo.png") no-repeat center;
   background-size: contain;
   overflow: hidden;
 }
@@ -141,8 +141,18 @@ body {
 }
 
 #info {
-  color: #707070;
-  font-size: 28px;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 43px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: normal;
+}
+
+#infoBen {
+  font-size: 35px;
+  color: rgb(255, 0, 230);
   text-align: center;
   line-height: 43px;
   margin-left: 10px;
@@ -154,6 +164,6 @@ body {
   display: flex;
   justify-content: center; /* Horizontally center */
   align-items: center; /* Vertically center */
-  height: 70%; /* Ensure the container has height */
+  height: 100%; /* Ensure the container has height */
   flex-direction: column;
 }
