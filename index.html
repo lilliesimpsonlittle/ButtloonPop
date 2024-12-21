@@ -67,6 +67,9 @@
             camera
           </header>
         </div>
+        <div id="info_2">
+          <p>Instructions for use: 1. unmute your phone 2. enjoy</p>
+        </div>
         <button
           id="startARButton"
           onclick="StartAR()"
@@ -76,6 +79,9 @@
         </button>
         <div style="color: #707070; font-size: 15px; margin-top: 20px">
           <!-- <p id="data-size">Calculating...</p> -->
+        </div>
+        <div id="info_1">
+          <header>With special thanks to Selwyn Phillips</header>
         </div>
       </div>
       <div id="splash-footer"></div>
@@ -267,7 +273,7 @@
       window.addEventListener("load", displayDownloadInfo);
 
       //Set Facing Mode here ('environment', 'user', '')
-		window.unityFacingMode = "environment"
+      window.unityFacingMode = "environment";
 
       window.WEBCAM_SETTINGS = {
         video: {
